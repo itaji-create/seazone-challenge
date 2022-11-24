@@ -6,9 +6,9 @@ from .views import PropertiesViewSet, AdvertsViewSet, ReservationsViewSet
 
 router = routers.DefaultRouter()
 
-router.register(r'properties', PropertiesViewSet)
-router.register(r'adverts', AdvertsViewSet)
-router.register(r'reservations', ReservationsViewSet)
+router.register('properties', PropertiesViewSet)
+router.register('adverts', AdvertsViewSet)
+router.register('reservations', ReservationsViewSet)
 
 urlpatterns = [
     path('', include(router.urls))
