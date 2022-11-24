@@ -7,7 +7,7 @@ class PropertiesSerializer(serializers.HyperlinkedModelSerializer):
         fields = '__all__'
 
 
-class AdventsSerializer(serializers.HyperlinkedModelSerializer):
+class AdvertsSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Adverts
         fields = '__all__'
