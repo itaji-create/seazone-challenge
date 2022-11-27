@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Properties(models.Model):
     code = models.CharField(max_length=30)
     guest_limit = models.IntegerField()
@@ -9,6 +10,7 @@ class Properties(models.Model):
     create_date = models.DateTimeField(auto_now_add=True)
     update_date = models.DateTimeField(auto_now=True)
 
+
 class Adverts(models.Model):
     property = models.ForeignKey(Properties, on_delete=models.CASCADE)
     create_date = models.DateTimeField(auto_now_add=True)
@@ -16,8 +18,9 @@ class Adverts(models.Model):
     platform_fee = models.DecimalField(decimal_places=2, max_digits=6)
     update_date = models.DateTimeField(auto_now=True)
 
+
 class Reservations(models.Model):
-    code = models.CharField(max_length=30)
+    code = models.CharField(max_length=30, blank=True, unique=True)
     ad_belongs = models.ForeignKey(Adverts, on_delete=models.CASCADE)
     check_in = models.DateField()
     check_out = models.DateField()

@@ -17,3 +17,4 @@ class AdvertsViewSet(viewsets.ModelViewSet):
 class ReservationsViewSet(viewsets.ModelViewSet):
     queryset = Reservations.objects.all()
     serializer_class = ReservationsSerializer
+    http_method_names = ['get', 'post', 'head']
