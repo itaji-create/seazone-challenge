@@ -1,0 +1,46 @@
+[
+    {
+        "model": "app.adverts",
+        "pk": 1,
+        "fields": {
+            "property": 2,
+            "platform_name": "book",
+            "platform_fee": "10.00",
+            "create_date": "2022-11-27T12:49:54.108354Z",
+            "update_date": "2022-11-27T12:49:54.108397Z"
+        }
+    },
+    {
+        "model": "app.adverts",
+        "pk": 2,
+        "fields": {
+            "property": 1,
+            "platform_name": "took",
+            "platform_fee": "15.00",
+            "create_date": "2022-11-27T12:49:54.108354Z",
+            "update_date": "2022-11-27T12:49:54.108397Z"
+        }
+    },
+    {
+        "model": "app.adverts",
+        "pk": 3,
+        "fields": {
+            "property": 4,
+            "platform_name": "sook",
+            "platform_fee": "12.00",
+            "create_date": "2022-11-27T12:49:54.108354Z",
+            "update_date": "2022-11-27T12:49:54.108397Z"
+        }
+    },
+    {
+        "model": "app.adverts",
+        "pk": 4,
+        "fields": {
+            "property": 5,
+            "platform_name": "book",
+            "platform_fee": "10.00",
+            "create_date": "2022-11-27T12:49:54.108354Z",
+            "update_date": "2022-11-27T12:49:54.108397Z"
+        }
+    }
+]

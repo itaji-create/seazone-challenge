@@ -1,0 +1,80 @@
+[
+    {
+        "model": "app.properties",
+        "pk": 1,
+        "fields": {
+            "code": "50002",
+            "guest_limit": 2,
+            "bathrooms": 1,
+            "pets": true,
+            "activation_date": "2009-11-11",
+            "create_date": "2022-11-27T12:49:54.108354Z",
+            "update_date": "2022-11-27T12:49:54.108397Z"
+        }
+    },
+    {
+        "model": "app.properties",
+        "pk": 2,
+        "fields": {
+            "code": "50003",
+            "guest_limit": 2,
+            "bathrooms": 1,
+            "pets": true,
+            "activation_date": "2015-10-10",
+            "create_date": "2022-11-27T12:49:54.108354Z",
+            "update_date": "2022-11-27T12:49:54.108397Z"
+        }
+    },
+    {
+        "model": "app.properties",
+        "pk": 3,
+        "fields": {
+            "code": "50004",
+            "guest_limit": 2,
+            "bathrooms": 1,
+            "pets": true,
+            "activation_date": "2020-12-12",
+            "create_date": "2022-11-27T12:49:54.108354Z",
+            "update_date": "2022-11-27T12:49:54.108397Z"
+        }
+    },
+    {
+        "model": "app.properties",
+        "pk": 4,
+        "fields": {
+            "code": "50005",
+            "guest_limit": 10,
+            "bathrooms": 4,
+            "pets": true,
+            "activation_date": "2014-04-01",
+            "create_date": "2022-11-27T12:49:54.108354Z",
+            "update_date": "2022-11-27T12:49:54.108397Z"
+        }
+    },
+    {
+        "model": "app.properties",
+        "pk": 5,
+        "fields": {
+            "code": "50006",
+            "guest_limit": 2,
+            "bathrooms": 1,
+            "pets": true,
+            "activation_date": "2022-08-10",
+            "create_date": "2022-11-27T12:49:54.108354Z",
+            "update_date": "2022-11-27T12:49:54.108397Z"
+        }
+    },
+    {
+        "model": "app.properties",
+        "pk": 6,
+        "fields": {
+            "code": "50001",
+            "guest_limit": 5,
+            "bathrooms": 2,
+            "pets": true,
+            "activation_date": "2020-12-10",
+            "create_date": "2022-11-27T12:49:54.108354Z",
+            "update_date": "2022-11-27T12:49:54.108397Z"
+        }
+    }
+]

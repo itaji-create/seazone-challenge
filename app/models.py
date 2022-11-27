@@ -13,9 +13,9 @@ class Properties(models.Model):
 
 class Adverts(models.Model):
     property = models.ForeignKey(Properties, on_delete=models.CASCADE)
-    create_date = models.DateTimeField(auto_now_add=True)
     platform_name = models.TextField()
     platform_fee = models.DecimalField(decimal_places=2, max_digits=6)
+    create_date = models.DateTimeField(auto_now_add=True)
     update_date = models.DateTimeField(auto_now=True)
 
 
