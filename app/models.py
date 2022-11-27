@@ -1,8 +1,9 @@
 from django.db import models
+from .utils import gerar_hash
 
 
 class Properties(models.Model):
-    code = models.CharField(max_length=30)
+    code = models.CharField(max_length=30, unique=True)
     guest_limit = models.IntegerField()
     bathrooms = models.IntegerField()
     pets = models.BooleanField()
@@ -20,7 +21,12 @@ class Adverts(models.Model):
 
 
 class Reservations(models.Model):
-    code = models.CharField(max_length=30, blank=True, unique=True)
+    code = models.CharField(
+        max_length=30,
+        editable=False,
+        default=gerar_hash,
+        unique=True
+    )
     ad_belongs = models.ForeignKey(Adverts, on_delete=models.CASCADE)
     check_in = models.DateField()
     check_out = models.DateField()
