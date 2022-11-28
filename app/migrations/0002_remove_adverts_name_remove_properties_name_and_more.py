@@ -25,7 +25,7 @@ class Migration(migrations.Migration):
             model_name="reservations",
             name="code",
             field=models.CharField(
-                default=app.utils.gerar_chave,
+                default=app.utils.gerar_hash,
                 editable=False,
                 max_length=30,
                 unique=True,
