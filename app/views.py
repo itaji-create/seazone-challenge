@@ -13,10 +13,10 @@ class PropertiesViewSet(viewsets.ModelViewSet):
 class AdvertsViewSet(viewsets.ModelViewSet):
     queryset = Adverts.objects.all()
     serializer_class = serializer.AdvertsSerializer
-    http_method_names = ['get', 'post', 'put', 'head']
+    http_method_names = ['get', 'post', 'put', 'patch', 'head']
 
 
 class ReservationsViewSet(viewsets.ModelViewSet):
     queryset = Reservations.objects.all()
     serializer_class = serializer.ReservationsSerializer
-    http_method_names = ['get', 'post', 'head']
+    http_method_names = ['get', 'post', 'delete', 'head']
