@@ -56,11 +56,3 @@ Esse projeto é o backend de um site de reservas, nele foram criadas 3 API's usa
   ```
 
 </details>
-<details>
-  <summary><strong>Heroku :rocket: </strong></summary><br />
-
-  Foi feito também o deploy dessa aplicação.
-
-  Acesse `seazone-challenge-99.herokuapp.com`
-
-</details>
